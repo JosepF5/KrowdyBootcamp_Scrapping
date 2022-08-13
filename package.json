@@ -1,0 +1,17 @@
+{
+  "name": "KrowdyBootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node config/esbuild.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.53"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.4"
+  }
+}
